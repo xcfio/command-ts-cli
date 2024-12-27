@@ -1,13 +1,14 @@
 {
     "name": "cmd-ts-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Command line interface for the command-ts library",
     "author": "softwarexplus",
     "homepage": "https://github.com/softwarexplus/cmd-ts-cli#readme",
     "main": "out/index.js",
     "license": "MIT",
     "bin": {
-        "ctscli": "out/index.js"
+        "ctscli": "out/index.js",
+        "cmd-ts-cli": "out/note.js"
     },
     "files": [
         "out/**/*"
@@ -44,6 +45,7 @@
         "@types/node": "^22.10.2"
     },
     "dependencies": {
+        "colorette": "^2.0.20",
         "commander": "^12.1.0"
     }
 }
