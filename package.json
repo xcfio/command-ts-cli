@@ -1,0 +1,49 @@
+{
+    "name": "cmd-ts-cli",
+    "version": "0.0.1",
+    "description": "Command line interface for the command-ts library",
+    "author": "softwarexplus",
+    "homepage": "https://github.com/softwarexplus/cmd-ts-cli#readme",
+    "main": "out/index.js",
+    "license": "MIT",
+    "bin": {
+        "ctscli": "out/index.js"
+    },
+    "files": [
+        "out/**/*"
+    ],
+    "scripts": {
+        "fmt": "prettier --config=.prettierrc --write src/",
+        "lint": "prettier --config=.prettierrc --check src/",
+        "build": "(node --eval \"require('node:fs').rmSync('out', { recursive: true, force: true })\" || true) && tsc",
+        "test": "tsc --noEmit",
+        "dev": "tsc --watch"
+    },
+    "keywords": [
+        "discord",
+        "discord.js",
+        "cmd-ts-cli"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/softwarexplus/cmd-ts-cli"
+    },
+    "bugs": {
+        "url": "https://github.com/softwarexplus/cmd-ts-cli/issues",
+        "email": "SoftwareXPlus@gmail.com"
+    },
+    "funding": {
+        "type": "patreon",
+        "url": "https://www.patreon.com/SoftwareXPlus"
+    },
+    "publishConfig": {
+        "access": "public",
+        "tag": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.2"
+    },
+    "dependencies": {
+        "commander": "^12.1.0"
+    }
+}
