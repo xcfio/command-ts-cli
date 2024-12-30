@@ -1,14 +1,14 @@
 {
-    "name": "cmd-ts-cli",
-    "version": "0.0.2",
+    "name": "command-ts-cli",
+    "version": "0.0.1",
     "description": "Command line interface for the command-ts library",
     "author": "softwarexplus",
-    "homepage": "https://github.com/softwarexplus/cmd-ts-cli#readme",
+    "homepage": "https://github.com/softwarexplus/command-ts-cli#readme",
     "main": "out/index.js",
     "license": "MIT",
     "bin": {
         "ctscli": "out/index.js",
-        "cmd-ts-cli": "out/note.js"
+        "command-ts-cli": "out/index.js"
     },
     "files": [
         "out/**/*"
@@ -23,14 +23,14 @@
     "keywords": [
         "discord",
         "discord.js",
-        "cmd-ts-cli"
+        "command-ts-cli"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/softwarexplus/cmd-ts-cli"
+        "url": "https://github.com/softwarexplus/command-ts-cli"
     },
     "bugs": {
-        "url": "https://github.com/softwarexplus/cmd-ts-cli/issues",
+        "url": "https://github.com/softwarexplus/command-ts-cli/issues",
         "email": "SoftwareXPlus@gmail.com"
     },
     "funding": {
