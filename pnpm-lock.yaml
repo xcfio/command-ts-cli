@@ -17,12 +17,12 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^25.0.0
-        version: 25.6.0
+        version: 25.6.2
 
 packages:
 
-  '@types/node@25.6.0':
-    resolution: {integrity: sha512-+qIYRKdNYJwY3vRCZMdJbPLJAtGjQBudzZzdzwQYkEPQd+PJGixUL5QfvCLDaULoLv+RhT3LDkwEfKaAkgSmNQ==}
+  '@types/node@25.6.2':
+    resolution: {integrity: sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw==}
 
   colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
@@ -36,7 +36,7 @@ packages:
 
 snapshots:
 
-  '@types/node@25.6.0':
+  '@types/node@25.6.2':
     dependencies:
       undici-types: 7.19.2
 
